@@ -1,15 +1,18 @@
 package ThursdayTest;
 public class LoopExample {
-    public static void iterateAndPrint(int n) {
+
+    
+    public void iterate(int n) {
         for (int i = 1; i <= n; i++) {
-            System.out.println("Iteration: " + i);
+            System.out.println( + i);
         }
     }
 
     public static void main(String[] args) {
-    
-        iterateAndPrint(10); 
+        
+        LoopExample example = new LoopExample();
+        
+        
+        example.iterate(5); 
     }
 }
-
-
