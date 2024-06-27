@@ -1,11 +1,14 @@
+import java.util.Scanner;
+
 public class Function {
     public void call(){
-        int n=8;
-        if(n%2==0){
-            System.out.println("even number");
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        if(n>=18){
+            System.out.println("Age is Greater than 18");
         }
         else{
-            System.out.println("odd");
+            System.out.println("Age is Less than 18");
         }
     }
     public static void main(String[] args) {
