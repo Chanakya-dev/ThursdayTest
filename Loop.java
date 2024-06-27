@@ -1,13 +1,15 @@
 public class Loop {
     public static void loop(){
-        for(int i=0; i<=10;i++){
-         System.out.println(i);
+        for(int i=1; i<=10;i++){
+         if(i%3==0){
+            System.out.println(i);
+         }
         }
-
+        
     }
     public static void main(String[] args) {
 
-        Loop loop = new Loop();
+        Loop l = new Loop();
         loop();
         
         
