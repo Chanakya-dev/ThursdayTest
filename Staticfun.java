@@ -16,5 +16,7 @@ public class Staticfun {
         System.out.println("enter your age : ");
         int a = sc.nextInt();
         System.out.println(Staticfun.age(a));
+    
     }
+    
 }
